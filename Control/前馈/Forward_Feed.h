@@ -11,7 +11,6 @@ typedef struct {
 } Feed_Forward_t;
 extern Feed_Forward_t feed_forward;
 
-
 void Forward_Feed_Init(Feed_Forward_t *feed_forward, float K, float target);
 
 float Forward_Feed_Calculate(Feed_Forward_t *feed_forward, float input);
