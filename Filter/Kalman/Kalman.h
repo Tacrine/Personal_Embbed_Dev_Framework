@@ -17,6 +17,7 @@ typedef struct {
     KalmanFilter GyroY;
     KalmanFilter GyroZ;
 } FilteredData;
+extern FilteredData filtered_data;
 
 // ³õÊ¼»¯ÂË²¨Æ÷
 void Kalman_Init(KalmanFilter *kf, float q, float r, float initial);

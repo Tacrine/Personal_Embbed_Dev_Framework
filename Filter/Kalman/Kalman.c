@@ -1,6 +1,6 @@
 #include "Kalman.h"
 
-extern FilteredData filtered_data;
+FilteredData filtered_data;
 
 void Kalman_Init(KalmanFilter *kf, float q, float r, float initial)
 {
