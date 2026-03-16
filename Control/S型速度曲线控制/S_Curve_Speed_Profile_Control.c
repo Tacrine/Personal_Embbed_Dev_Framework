@@ -24,7 +24,7 @@ float S_Curve_Controller_Update(Tac_S_Curve_Controller *S_Curve_Controller)
 }
 
 /// @brief 全局初始化所有S型速度曲线控制器，位于主程序系统初始化部分
-void S_Curve_Controller_ALL_Init(void)
+void S_Curve_Controller_All_Init(void)
 {
     S_Curve_Controller_Init(&S_Curve_Controller);
     S_Curve_Controller_Init(&Position_Controll);

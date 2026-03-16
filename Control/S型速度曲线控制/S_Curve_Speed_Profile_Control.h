@@ -18,5 +18,5 @@ extern Tac_S_Curve_Controller S_Curve_Controller;
 
 void S_Curve_Controller_Init(Tac_S_Curve_Controller *S_Curve_Controller);
 float S_Curve_Controller_Update(Tac_S_Curve_Controller *S_Curve_Controller);
-void S_Curve_Controller_ALL_Init(void);
+void S_Curve_Controller_All_Init(void);
 #endif //__S_CURVE_SPEED_PROFILE_CONTROL_H
