@@ -1,6 +1,7 @@
 #include "S_Curve_Speed_Profile_Control.h"
 
-Tac_S_Curve_Controller S_Curve_Controller;
+/// @brief 定义S型速度曲线控制器结构体
+volatile Tac_S_Curve_Controller S_Curve_Controller;
 
 /// @brief 初始化S型速度曲线控制器
 /// @param S_Curve_Controller S型速度曲线控制器结构体
